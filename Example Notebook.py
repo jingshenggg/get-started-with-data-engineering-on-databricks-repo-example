@@ -11,4 +11,6 @@ display(sdf)
 
 # COMMAND ----------
 
-
+# MAGIC %sql
+# MAGIC select * from js_catalog.employee_schema.employees
+# MAGIC order by salary desc;
